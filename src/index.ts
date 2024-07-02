@@ -36,7 +36,7 @@ function wasmLoader(options?: WasmOptions): Plugin {
         name: 'wasm',
         setup(build: PluginBuild) {
             // Catch "*.wasm" files in the resolve phase and redirect them to our custom namespaces
-            build.onResolve({ filter: /\.(?:wasm)$/ }, (args): OnResolveResult | undefined => {
+            build.onResolve({ filter: /\.(?:wasm)/ }, (args): OnResolveResult | undefined => {
                 // If it's already in the virtual module namespace, redirect to the file loader
                 if (args.namespace === WASM_MODULE_NAMESPACE) {
                     return { path: args.path, namespace: embed ? WASM_EMBEDDED_NAMESPACE : WASM_DEFERRED_NAMESPACE }
