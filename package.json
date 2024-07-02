@@ -1,5 +1,5 @@
 {
-    "name": "esbuild-plugin-wasm",
+    "name": "esbuild-plugin-wasm-new",
     "version": "1.1.0",
     "description": "A WASM file loader for esbuild.",
     "keywords": [
