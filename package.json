@@ -9,16 +9,16 @@
         "plugin",
         "esbuild-plugin"
     ],
-    "homepage": "https://github.com/Tschrock/esbuild-plugin-wasm#readme",
-    "bugs": "https://github.com/Tschrock/esbuild-plugin-wasm/issues",
+    "homepage": "https://github.com/dqli164/esbuild-plugin-wasm#readme",
+    "bugs": "https://github.com/dqli164/esbuild-plugin-wasm/issues",
     "license": "MIT",
-    "author": "Tyler Schrock <tschrock123@gmail.com>",
+    "author": "<dqli164123@gmail.com>",
     "funding": {
         "type": "individual",
-        "url": "https://ko-fi.com/tschrock"
+        "url": "https://ko-fi.com/dqli164"
     },
     "main": "dist/index.js",
-    "repository": "github:Tschrock/esbuild-plugin-wasm",
+    "repository": "github:dqli164/esbuild-plugin-wasm",
     "scripts": {
         "test": "gulp test",
         "clean": "gulp clean",
